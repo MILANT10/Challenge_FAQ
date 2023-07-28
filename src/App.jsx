@@ -1,7 +1,10 @@
+import { Background } from "./components/Background/Background";
+import "./index.css";
+
 export function App() {
   return (
-    <>
-      <div>Hello World</div>
-    </>
+    <div>
+      <Background />
+    </div>
   );
 }
