@@ -4,7 +4,7 @@ import { SecondBox } from "../SecondBox/SecondBox";
 
 export function Box() {
   return (
-    <div className="w-[330px] bg-divider flex flex-col items-center rounded-2xl">
+    <div className="w-[330px] h-[600px] bg-divider flex flex-col items-center rounded-2xl">
       <SvgCompo />
       <SecondBox />
     </div>

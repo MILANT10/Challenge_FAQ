@@ -1,14 +1,14 @@
 import React from "react";
 import arrowDownSvg from "../../images/icon-arrow-down.svg";
 
-export function Questions1({ activePanel }) {
+export function Questions4({ activePanel }) {
   return (
     <div>
       <div
         className={`text-sm flex justify-between items-center ${
           activePanel ? "text-veryDark" : "text-darkGrayishBlue"
         }`}>
-        How many team members can I invite?{" "}
+        Can I cancel my subscription?{" "}
         <img
           className={`inline w-4 pt-1 ${
             activePanel ? "rotate-180" : "rotate-0"
