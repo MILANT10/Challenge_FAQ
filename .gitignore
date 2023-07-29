@@ -24,3 +24,5 @@ yarn-error.log*
 /design
 /README-template.md
 style-guide.md
+postcss.config.js
+tailwind.config.js
