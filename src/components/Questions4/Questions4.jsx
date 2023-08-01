@@ -5,7 +5,7 @@ export function Questions4({ activePanel }) {
   return (
     <div>
       <div
-        className={`text-sm flex justify-between items-center ${
+        className={`text-sm flex justify-between items-center lg:text-base ${
           activePanel ? "text-veryDark font-bold" : "text-darkGrayishBlue"
         }`}>
         Can I cancel my subscription?{" "}
