@@ -19,7 +19,7 @@ export function Accordion() {
   };
 
   return (
-    <>
+    <div className="flex flex-col">
       <div
         className={`w-full border-b-2 border-darkGrayish pb-4 mb-8 ${
           activePanel === 1
@@ -66,6 +66,6 @@ export function Accordion() {
         </div>
         {activePanel === 5 && <Reponse5 />}
       </div>
-    </>
+    </div>
   );
 }
