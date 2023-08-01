@@ -5,8 +5,8 @@ export function Questions1({ activePanel }) {
   return (
     <div>
       <div
-        className={`text-sm flex justify-between items-center ${
-          activePanel ? "text-veryDark" : "text-darkGrayishBlue"
+        className={`text-sm flex justify-between items-center  ${
+          activePanel ? "text-veryDark font-bold" : "text-darkGrayishBlue"
         }`}>
         How many team members can I invite?{" "}
         <img

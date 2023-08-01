@@ -10,6 +10,7 @@ import { Questions4 } from "../Questions4/Questions4";
 import { Reponse4 } from "../Reponse4/Reponse4";
 import { Questions5 } from "../Questions5/Questions5";
 import { Reponse5 } from "../Reponse5/Reponse5";
+import data from "../../Accordion";
 
 export function Accordion() {
   const [activePanel, setActivePanel] = useState(null);

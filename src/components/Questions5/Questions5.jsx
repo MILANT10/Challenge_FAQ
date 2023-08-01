@@ -6,7 +6,7 @@ export function Questions5({ activePanel }) {
     <div>
       <div
         className={`text-sm flex justify-between items-center ${
-          activePanel ? "text-veryDark" : "text-darkGrayishBlue"
+          activePanel ? "text-veryDark font-bold" : "text-darkGrayishBlue"
         }`}>
         Do you provide additional support?{" "}
         <img
