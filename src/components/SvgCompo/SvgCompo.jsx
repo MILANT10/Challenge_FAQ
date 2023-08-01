@@ -10,19 +10,19 @@ export function SvgCompo() {
     return (
       <div className="flex flex-col items-start justify-start h-full overflow-clip">
         <img
-          className="lg:relative lg:right-24 lg:top-28 lg:w-full"
+          className="lg:relative lg:right-24 lg:top-20 lg:w-full"
           src={womanOnlineDesk}
           alt="A hotline woman on a pc tchating"
         />
 
         <img
-          className="lg:relative lg:bottom-64 right-24"
+          className="lg:relative lg:bottom-96 right-24"
           src={bgPatternDesktop}
           alt="shadow of the hotline woman"
         />
 
         <img
-          className="lg:absolute lg:top-[460px] left-[180px]"
+          className="lg:absolute lg:top-[450px] left-[180px]"
           src={cubeSvg}
           alt="cube with an @"
         />

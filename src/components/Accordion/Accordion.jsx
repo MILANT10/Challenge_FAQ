@@ -19,9 +19,9 @@ export function Accordion() {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-7">
       <div
-        className={`w-full border-b-2 border-darkGrayish pb-4 mb-8 ${
+        className={`w-full border-b-2 border-darkGrayish pb-4 ${
           activePanel === 1
         }`}>
         <div className="cursor-pointer" onClick={() => handlePanelClick(1)}>
@@ -31,7 +31,7 @@ export function Accordion() {
       </div>
 
       <div
-        className={`w-full border-b-2 border-darkGrayish pb-4 mb-8 ${
+        className={`w-full border-b-2 border-darkGrayish pb-4 ${
           activePanel === 2
         }`}>
         <div className="cursor-pointer" onClick={() => handlePanelClick(2)}>
@@ -40,7 +40,7 @@ export function Accordion() {
         {activePanel === 2 && <Reponse2 />}
       </div>
       <div
-        className={`w-full border-b-2 border-darkGrayish pb-4 mb-8 ${
+        className={`w-full border-b-2 border-darkGrayish pb-4 ${
           activePanel === 3
         }`}>
         <div className="cursor-pointer" onClick={() => handlePanelClick(3)}>
@@ -49,7 +49,7 @@ export function Accordion() {
         {activePanel === 3 && <Reponse3 />}
       </div>
       <div
-        className={`w-full border-b-2 border-darkGrayish pb-4 mb-8 ${
+        className={`w-full border-b-2 border-darkGrayish pb-4 ${
           activePanel === 4
         }`}>
         <div className="cursor-pointer" onClick={() => handlePanelClick(4)}>
@@ -58,7 +58,7 @@ export function Accordion() {
         {activePanel === 4 && <Reponse4 />}
       </div>
       <div
-        className={`w-full border-b-2 border-darkGrayish pb-4 mb-8 ${
+        className={`w-full border-b-2 border-darkGrayish pb-4 ${
           activePanel === 5
         }`}>
         <div className="cursor-pointer" onClick={() => handlePanelClick(5)}>
