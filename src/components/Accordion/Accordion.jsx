@@ -19,7 +19,7 @@ export function Accordion() {
   };
 
   return (
-    <div className="flex flex-col gap-7 mr-12">
+    <div className="flex flex-col gap-7 lg:mr-12">
       <div
         className={`w-full border-b-2 border-darkGrayish pb-4 ${
           activePanel === 1
