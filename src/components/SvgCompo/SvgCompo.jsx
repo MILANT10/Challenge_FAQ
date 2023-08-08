@@ -22,7 +22,7 @@ export function SvgCompo() {
         />
 
         <img
-          className="lg:absolute lg:top-[450px] left-[180px]"
+          className="lg:absolute lg:top-[460px] left-[214px]"
           src={cubeSvg}
           alt="cube with an @"
         />
